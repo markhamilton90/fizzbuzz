@@ -3,10 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>FizzBuzz Challenge</title>
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+		p {
+			font-size: 2em;
+		}
+		#input, #output {
+			text-align: center;
+		}
+		#input {
+			padding: 1em 0;
+			background-color: #ffde26;
+		}
+		
+	</style>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="fizzbuzz.js"></script>
 </head>
 <body>
-
+	<div id="input">
+		<h1>Enter a number:</h1>
+		<input id="user-input" type="text">
+	</div>
+	<div id="output"></div>
 </body>
 </html>
